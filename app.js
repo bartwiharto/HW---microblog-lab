@@ -1,9 +1,13 @@
 const userForm = document.getElementById("user-Form");
 
-  userForm.addEventListener("submit", function(event){
-    event.preventDefault();
+console.log(userForm);
 
-    let userInput = document.getElementById('user-Input').value;
-});
+	userForm.addEventListener('submit', function(event) {
+    	event.preventDefault();
+	const userInput = document.getElementById("user-Input").value;
+	const submit = document.getElementById("submitButton").value;
 
 console.log(userInput);
+});
+
+// console.log(userInput);
